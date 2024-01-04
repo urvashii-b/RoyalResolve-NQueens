@@ -2,6 +2,8 @@
 
 Royal Resolve is a Python-based project that tackles the N-Queens problem using a graphical user interface. The project employs a backtracking algorithm to find solutions for the N-Queens puzzle.
 
+Click on the image to see the demo video:
+[![Royal Resolve Prototype Demo](queen.jpg)](https://youtu.be/WDGfN5TalZE?si=cQ_kPkaDB7tPkicF)
 ## Files Included:
 - **nqueens.py**: Contains the backtracking algorithm implementation to solve the N-Queens problem.
 - **Nqueensb1.py**: This file incorporates a graphical user interface using Tkinter to create an interactive N-Queens puzzle game.
