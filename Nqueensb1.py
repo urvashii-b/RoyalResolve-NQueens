@@ -165,12 +165,12 @@ def entry_page():
     frame=Frame(root)
     frame.pack()
     Label(frame,text='''Hello!!
-Welcome to NQuees!
+Welcome to Royal Resolve!👊
 Clicking on the start button will take you to the main page.
 You have two options
 1. See the solution of a certain board
 2. Try to find the solution on your own!
-We hope you enjoy!''',font = ("Helvetica",11),justify= CENTER).pack()
+We hope you enjoy our first project!''',font = ("Helvetica",11),justify= CENTER).pack()
     Button(frame,text="Start",font = ("Helvetica",11),command=start).pack()
     Button(frame,text="Quit",font = ("Helvetica",11),command=root.destroy).pack()
 def start():
@@ -185,7 +185,7 @@ def start():
         pass
     frame1=Frame(root)
     frame1.pack()
-    Label(frame1,text="Hello to Nqueens",font = ("Helvetica",11)).grid(row=0,columnspan=2)
+    Label(frame1,text="Ready?",font = ("Helvetica",11)).grid(row=0,columnspan=2)
     Label(frame1,text="Enter board size:",font = ("Helvetica",11)).grid(row=1,column=0)
     e1=Entry(frame1)
     e1.grid(row=1,column=1)

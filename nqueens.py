@@ -64,19 +64,26 @@ def solveNQUtil(board, col):
 # note that there may be more than one
 # solutions, this function prints one of the
 # feasible solutions.
+# def solveNQ(n):
+#         global N
+#         N=n
+#         board=[]
+#         for i in range(N):
+#                 L=[]
+#                 for j in range(N):
+#                         L.append(0)
+#                 board.append(L)
+#         if solveNQUtil(board, 0) == False:
+#         	return False
+		
+# 		return board
 def solveNQ(n):
-        global N
-        N=n
-        board=[]
-        for i in range(N):
-                L=[]
-                for j in range(N):
-                        L.append(0)
-                board.append(L)
-        if solveNQUtil(board, 0) == False:
-        	return False
-
-        return board
+    global N
+    N = n
+    board = [[0 for _ in range(N)] for _ in range(N)]
+    if solveNQUtil(board, 0) == False:
+        return False
+    return board
 
 # Driver Code
 
